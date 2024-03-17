@@ -2,17 +2,20 @@ import TopNavBar from ".//components/TopNavBar"
 import ServiceCard from ".//components/ServiceCard"
 import FooterEhs from ".//components/FooterEhs"
 import ContactUsSection from "./components/ContactUs";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
-   <div className="flex justify-center">
-    <img
-      src="/seguridad.png"
-      alt="Vercel Logo"
-      className="max-w-full h-full"
-    />
-</div>
+    <main className="">
+      <div className="full-width-container">
+        <Image
+        src="/seguridad.png" // Replace with your image path
+        alt="hero image"
+        width={1440} // Example width (adjust based on your image)
+        height={768} // Example height (adjust based on your image)
+        layout="responsive"
+        />
+      </div>
       
      <header className="sticky top-0 z-10">
       <TopNavBar/>
