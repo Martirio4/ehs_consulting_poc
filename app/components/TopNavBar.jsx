@@ -15,13 +15,13 @@ export default function TopNavBar() {
             <Link href="/" className="text-gray-900 hover:text-gray-700 px-3 py-2">
               Home
             </Link>
-            <Link href="/services" className="text-gray-900 hover:text-gray-700 px-3 py-2">
+            <Link href="/" className="text-gray-900 hover:text-gray-700 px-3 py-2">
               Servicios
             </Link>
-            <Link href="/about"className="text-gray-900 hover:text-gray-700 px-3 py-2">
+            <Link href="/"className="text-gray-900 hover:text-gray-700 px-3 py-2">
               Acerca de
             </Link>
-            <Link href="/contact" className="text-gray-900 hover:text-gray-700 px-3 py-2">
+            <Link href="/" className="text-gray-900 hover:text-gray-700 px-3 py-2">
               Contacto
             </Link>
             <Link href="/clients" className="text-gray-900 hover:text-gray-700 px-3 py-2 font-bold">
