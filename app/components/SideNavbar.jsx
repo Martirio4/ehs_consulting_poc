@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link';
-import NavLinks from '../components/NavLinks';
-import AcmeLogo from '../components/AcmeLogo';
+import NavLinks from './Navlinks';
+import AcmeLogo from './AcmeLogo';
 import { PowerIcon } from '@heroicons/react/24/outline';
 import { getAuth, signOut } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
